@@ -16,7 +16,7 @@ Other models follow the same methodological framework and we will have an overvi
 
 ## Dataset
 
-The notebooks assume the data is provided in an Excel file named cohort.xlsx, with the following features:
+The [svm_rbf.ipynb](svm_rbf.ipynb) notebook assume the data is provided in an Excel file named cohort.xlsx, with the following features:
 
 - **bmi**: Body Mass Index  
 - **hc**: Hip Circumference  
@@ -159,7 +159,7 @@ BorderlineSMOTE -> RandomForestClassifier
 ### SVM with RBF Kernel
 <img src="plots/svmrbf_roc_curve.png" alt="SVM-RBF ROC Curve" width="900"/>
 
-The ROC curve above shows the performance of the SVM model with an RBF kernel, including bootstrapped CIs.
+The ROC curve above shows the performance of the SVM model with an RBF kernel.
 
 
 
@@ -216,6 +216,7 @@ SVM with RBF kernel was retrained on a stratified cohort of males aged 40â€“70â€
 
 <img src="plots/svmrbf_stratified_roc_curve.png" alt="Stratified Cohort SVM-RBF ROC Curve" width="900"/>
 
+The ROC curve above shows the performance of the SVM model with an RBF kernel in the stratified cohort.
 
 
 
