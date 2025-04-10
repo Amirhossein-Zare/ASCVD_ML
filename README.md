@@ -1,4 +1,4 @@
-# ASCVD Risk Classification using Machine Learning
+# ASCVD Risk Classification Using Machine Learning
 
 This project focuses on training and evaluating six machine learning models to classify the risk of Atherosclerotic Cardiovascular Disease (ASCVD) based on anthropometric and body composition features. 
 
@@ -190,7 +190,7 @@ The ROC curve above shows the performance of the SVM model with an RBF kernel.
 
 ## SHAP Explainability
 
-The SVM with RBF Kernel, trained on the full dataset using optimal hyperparameters, has been interpreted using **SHAP**:
+The SVM with RBF Kernel, trained on the full dataset using optimal hyperparameters, has been interpreted using SHAP:
 
 ### SHAP Feature Importance
 
