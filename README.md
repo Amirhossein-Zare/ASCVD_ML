@@ -1,14 +1,14 @@
-# ASCVD Risk Classification Using Machine Learning
+# ML-Based Prediction of ASCVD Risk Categories Using Anthropometric Features
 
 This project focuses on training and evaluating six machine learning models to classify the risk of Atherosclerotic Cardiovascular Disease (ASCVD) based on anthropometric and body composition features. 
 
-All models follow a standardized pipeline comprising:
-- Data pipeline setup  
-- Model training and tuning  
-- Bootstrapped performance evaluation  
-- Model interpretability via SHAP values  
+Each model was developed using a consistent methodology, which involves:
+- Setting up the data processing steps  
+- Training and tuning the model  
+- Evaluating performance via bootstrapping  
+- Interpreting model predictions with SHAP values  
 
-[svm_rbf.ipynb](svm_rbf.ipynb) notebook contains the full code and results for the top-performing model: Support Vector Machine (SVM) with RBF kernel, which achieved the highest micro-average AUC.
+The [svm_rbf.ipynb](svm_rbf.ipynb) notebook contains the full code and results for the top-performing model: a Support Vector Machine (SVM) with an RBF kernel, which achieved the highest micro-average AUC.
 
 Other models follow the same methodological framework and we will have an overview of their implementation and results in the following sections.
 
